@@ -89,7 +89,6 @@ button.normal:hover{
     left: 20px;
 }
 /* ----- End Header ------ */
-
 /* ----- Home page ----- */
 #hero{
     display: flex;
@@ -223,7 +222,6 @@ button.normal:hover{
 #product1 .cake:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
-
 #product1 .cake img{
     width: 100%;
     border-radius: 20px;
