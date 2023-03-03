@@ -330,6 +330,10 @@ button.normal:hover{
 #cart {
     overflow-x: auto;
 }
+.cart-p1{
+    padding: 20px 80px;
+    color: #E5E7EB;
+}
 #cart table{
     width: 100%;
     border-collapse: collapse;
@@ -547,3 +551,84 @@ footer .copyright{
     text-align: center;
 }
 /* ----- End Footer ----- */
+/* Screen max-width 477px */
+@media (max-width: 477px) {
+    /* Home page */
+    #header {
+        padding: 10px;
+    } 
+    #hero {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    #hero .container {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #hero h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+    #hero p {
+        font-size: 12px;
+    }
+    #hero .hero {
+        width: 100%;
+    }
+    #quote {
+        font-size: 18px;
+        padding: 10px 15px;
+        position: relative;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    #newsletter p{
+        font-size: 16px;
+        background-position: 20% 30%;
+    }
+    #newsletter h4{
+        font-size: 20px;
+    }
+    #newsletter input {
+        height: 1.125rem;
+        font-size: 10px;
+        width: 100px;
+    }
+    button.normal {
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+    #newsletter button {
+        height: 1.25rem;
+    }
+    /* Custom Page */
+    #page-header {
+        height: 20vh;
+    }
+    #page-header h2, 
+    #page-header p {
+        font-size: 18px;
+    }
+    /* Cart Page */
+    .cart-header {
+        width: 100%;
+        height: 20vh;
+    }
+    /* #cart  */
+    .cart-p1{
+        padding: 20px 0px;
+    }
+    #subtotal {
+        margin-bottom: 00px;
+    }
+    #coupon input {
+        padding: 5px 15px;
+    }
+    #coupon button, #subtotal button {
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+}
+
+
