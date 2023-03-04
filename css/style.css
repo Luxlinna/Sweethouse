@@ -219,6 +219,7 @@ button.normal:hover{
 }
 #product1 .cake-container{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap;
@@ -580,6 +581,7 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
+
 /* Screen max-width 477px */
 @media (max-width: 477px) {
     /* Home page */
@@ -618,6 +620,13 @@ footer .copyright{
         width: 400px;
         height: 300px;
     }
+    .feature-card{
+        gap: 2rem;
+    }
+    #feature h1 {
+        text-align: center;
+        font-size: large;
+    }
     #quote {
         font-size: 12px;
         padding: 10px 15px;
@@ -640,8 +649,9 @@ footer .copyright{
     }
     #newsletter input {
         height: 1.125rem;
+        padding: 0px;
         font-size: 10px;
-        width: 100px;
+        width: 200px;
     }
     button.normal {
         font-size: 10px;
