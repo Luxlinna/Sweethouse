@@ -26,7 +26,7 @@
     width: auto;
 }
 body {
-    width: 100%;
+    width: auto;
     background-color: #1F2937;
 }
 /* -- Header -- */
@@ -105,6 +105,7 @@ button.normal:hover{
     height: 45vh;
     width: 50%;
     border-radius: 20px;
+    margin-top: 50px;
 }
 #hero .container {
     display: flex;
@@ -143,9 +144,18 @@ button.normal:hover{
 }
 #feature {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: 'Roboto-Medium';
+}
+.feature-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin: 20px 0px 20px 0px;
 }
 #feature .fe-box{
     width: 180px;
@@ -155,16 +165,7 @@ button.normal:hover{
     border: 1px solid #cce7d0;
     border-radius: 10px;
     margin: 15px 0;
-    background-color: #9083DE;
-}
-#feature .fe-box:nth-child(2){
-    background-color: #699FF1;
-}
-#feature .fe-box:nth-child(3){
-    background-color: #98AF3D;
-}
-#feature .fe-box:nth-child(4) {
-    background-color: #4556EE;
+    font-family: 'Roboto-Light';
 }
 #feature .fe-box:hover{
     box-shadow: 10px 10px 54px rgba(176, 172, 243, 0.1);
@@ -194,6 +195,8 @@ button.normal:hover{
 }
 #quote{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
     background-color: #E5E7EB;
     font-family: 'Roboto-LightItalic';
@@ -201,8 +204,11 @@ button.normal:hover{
     color: #1F2937;
     padding: 20px 80px;
     position: relative;
-    margin: 80px;
+    margin: 0px 80px 70px 80px;
     border-radius: 20px;
+}
+.quote-author{
+    text-align: right;
 }
 #quote:hover{
     transform: translateY(-2px);
@@ -227,7 +233,6 @@ button.normal:hover{
     box-shadow: 20px 20px 30px rgba(248, 241, 241, 0.02);
     margin: 15px 0;
     transition: 0.2s ease;
-    /* transition: transform 0.3s; */
     position: relative;
 }
 #product1 .cake-container .cake:hover{
@@ -462,10 +467,10 @@ button.normal:hover{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    /* background-image: url("../images/footer-banner.jpg"); */
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42; 
+    margin: 0px 80px 0px 80px;
 }
 #newsletter h4 {
     font-family: 'Roboto-Bold';
@@ -614,18 +619,24 @@ footer .copyright{
         height: 300px;
     }
     #quote {
-        font-size: 18px;
+        font-size: 12px;
         padding: 10px 15px;
         position: relative;
-        margin: 10px;
+        margin: 0px 10px 50px 10px;
         border-radius: 20px;
+    }
+    #newsletter {
+        margin: 10px;
     }
     #newsletter p{
         font-size: 16px;
         background-position: 20% 30%;
     }
     #newsletter h4{
-        font-size: 20px;
+        font-size: 20px;  
+    }
+    .section-p2{
+        padding: 20px 50px;
     }
     #newsletter input {
         height: 1.125rem;
