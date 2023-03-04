@@ -22,6 +22,9 @@
     font-family: 'Roboto-Medium';
     src: url(../fonts/roboto/Roboto-Medium.ttf);
 }
+*{
+    width: auto;
+}
 body {
     width: 100%;
     background-color: #1F2937;
@@ -99,8 +102,8 @@ button.normal:hover{
 }
 #hero .hero {
     background-image: url("../images/Hero.jpg");
-    height: 38rem;
-    width: 43rem;
+    height: 45vh;
+    width: 50%;
     border-radius: 20px;
 }
 #hero .container {
@@ -459,7 +462,7 @@ button.normal:hover{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("../images/footer-banner.jpg");
+    /* background-image: url("../images/footer-banner.jpg"); */
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42; 
@@ -474,7 +477,7 @@ button.normal:hover{
     font-family: 'Roboto-Light';
     font-size: 18px;
     font-weight: 600;
-    color: rgb(132, 123, 123);
+    color: #E5E7EB;
 }
 #newsletter p span {
     color: #3882f6;
