@@ -577,7 +577,10 @@ footer a:hover {
     color: #088178;
 }
 footer .copyright{
-    padding-top: 30px;
+    background-color: #1F2937;
+    border: 1px solid gray;
+    padding: 20px 0px 20px 0px;
+    /* padding-top: 30px; */
     width: 100%;
     text-align: center;
 }
